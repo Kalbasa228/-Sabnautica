@@ -37,3 +37,12 @@ img {
     align-items: center;
     padding: -30px -30px -20px -45px;
 }
+
+img:hover {
+    opacity: 1;
+    border: 6px solid navy;
+    width: 600px;
+    height: 500px;
+    transition: 0.5s ease-out;
+    padding: 5px;
+}
